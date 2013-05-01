@@ -16,13 +16,14 @@
 	"express": "latest" ,
 	"jade": "latest" ,
 	"mongoose": "latest" ,
-	"forever": "latest"
+	"forever": "latest" ,
+	"passport": "latest"
     },
     "devDependencies": {
-        "supertest": "latest"
-      , "should": "latest"
-      , "mocha": "latest"
-      , "nodemon": "latest"
+        "supertest": "latest" ,
+        "should": "latest" ,
+	"mocha": "latest" ,
+	"nodemon": "latest"
     }
 
 }
