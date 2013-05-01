@@ -1,0 +1,28 @@
+{
+    "name": "simsun_node_server" ,
+    "description": "just a demo app" ,
+    "version": "0.0.1" ,
+    "private": true ,
+    "author": "Sim Sun <sunsj1231@gmail.com>(http://simpleton.github.com)" ,
+    "engines": {
+	"node": "0.10.x" ,
+	"npm": "1.2.x"
+    } ,
+    "scripts": {
+	"start": "NODE_ENV=development ./node_modules/.bin/nodemon server.js",
+	"test": "NODE_ENV=test ./node_modules/.bin/mocha --reporter spec test/test-*.js"
+    },
+    "dependencies": {
+	"express": "latest" ,
+	"jade": "latest" ,
+	"mongoose": "latest" ,
+	"forever": "latest"
+    },
+    "devDependencies": {
+        "supertest": "latest"
+      , "should": "latest"
+      , "mocha": "latest"
+      , "nodemon": "latest"
+    }
+
+}
